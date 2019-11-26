@@ -1,0 +1,258 @@
+body {
+    background-color: #949494;
+    font-family: Arial;
+    font-size: 12px;
+}
+p,
+h6 {
+    margin: 0;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    height: 302px;
+    margin: auto;
+}
+.clear {
+    clear: both;
+}
+#header {
+    width: 100%;
+    margin: 0 auto;
+}
+#wrapper {
+    height: 100%;
+    width: 1100px;
+    background-color: #99b7c5;
+    margin: 0 auto;
+}
+.logo {
+    width: 50%;
+    float: left;
+}
+.Yellow img {
+    width: 50px;
+    float: left;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.headerright {
+    width: 350px;
+    float: right;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 40px;
+    font-size: 15px;
+    color: #8b2e23;
+}
+.headerright a {
+    color: #2f8bbb;
+    text-decoration: none;
+    font-size: 12px;
+}
+.headerright a:hover {
+    color: #8b2e23;
+}
+.menu {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+a.menulink {
+    color: #02048D;
+    text-decoration: none;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    vertical-align: middle;
+}
+a.menulink:hover {
+    color: #8D443D;
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: bold;
+}
+.content {
+    background: url("../images/122.gif");
+    padding: 40px 0px 40px 0px;
+}
+.whitebox {
+    background-color: #FFFFFF;
+    width: 73%;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+h2.headertext {
+    color: #900000;
+    text-align: center;
+    font-weight: 400;
+}
+img {
+    margin: 0px 0px 0px 5px;
+}
+.center {
+    margin: 0 auto;
+}
+p.end1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #900000;
+    font-size: 18px;
+}
+
+}
+p.info {
+    text-align: justify;
+}
+span.red {
+    color: #8D443D;
+    text-transform: uppercase;
+}
+.margintop {
+    margin-top: 50px;
+}
+a.plink {
+    color: #02048D;
+    text-decoration: none;
+}
+a.plink:hover {
+    color: #8D443D;
+    text-decoration: underline;
+}
+.input {
+    margin: 50px auto;
+    width: 100%;
+    text-align: center;
+    color: #6699CC;
+    text-transform: capitalize;
+}
+p.mailspace {
+    margin-top: 1px;
+}
+.bottom {
+    background-color: #99B7C5;
+    padding: 10px 0px 10px 0px;
+}
+.hours {
+    width: 100%;
+    text-align: center;
+}
+.info {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+.socialmedia {
+    color: #900000;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+p.social {
+    margin: 10px 0px 10px 0px;
+    padding: 0;
+}
+a.sociallink {
+    padding: 5px 0px 10px 0px;
+    text-align: center;
+}
+.toppic {
+    float: left;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.conversion {
+    float: right;
+}
+img.marginspace {
+    padding: 3px 1px;
+}
+@media only screen and (max-width: 950px) {
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        height: 302px;
+    }
+    #wrapper {
+        width: 100%;
+        overflow: hidden;
+    }
+    #header {
+        width: 100%;
+        overflow: hidden;
+    }
+    .whitebox {
+        width: 100%;
+    }
+    .logo {
+        width: 40%;
+    }
+    .Yellow img {
+        width: 10%;
+        float: left;
+        padding-top: 65px;
+    }
+    .headerright {
+        width: 100%;
+        float: left;
+        overflow: hidden;
+    }
+    #header {
+        width: 100%;
+        overflow: hidden;
+    }
+    .input {
+        width: 100%;
+    }
+    .toppic {
+        width: 300%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .left {
+        width: 30%;
+        margin: 0 auto;
+        display: inline;
+        text-align: center;
+    }
+    .marginspace {
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #wrapper {
+        width: 100%;
+        overflow: hidden;
+    }
+    #header {
+        width: 100%;
+        overflow: hidden;
+    }
+    .whitebox {
+        width: 100%;
+    }
+    .left {
+        width: 100%;
+        display: inline;
+        text-align: center;
+    }
+    .marginspace {
+        padding: 3px 1px;
+        margin: 0 auto;
+    }
+    .Yellow img {
+        width: 20%;
+    }
+    .toppic {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}

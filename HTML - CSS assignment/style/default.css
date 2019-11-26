@@ -1,0 +1,148 @@
+body {
+background-color: #949494;
+font-family: Arial;
+font-size: 12px;
+}
+.wrapper {
+	width: 75%; 
+	margin: 0 auto; 
+	overflow: hidden;	
+}
+.header {
+	background-color: #99B7C5; 
+	
+	
+}
+.menu {
+	width: 100%; 
+	text-align: center; 
+	padding: 0px 0px 20px 0px;
+	
+}
+a.menulink {
+	color: #02048D;
+	text-decoration: none; 
+	text-transform: lowercase;
+	letter-spacing: 1px;
+	vertical-align: middle;
+	}
+a.menulink:hover {
+	color: #8D443D;
+	text-decoration: underline;
+	font-size: 14px; 
+	font-weight: bold; 
+	
+}
+
+.content {
+	background: url("../images/122.gif"); 
+	padding: 40px 0px 40px 0px;
+}
+.whitebox {
+	background-color: #FFFFFF; 
+	width: 510px; 
+	margin: 0 auto; 
+	padding: 5px 30px 15px 30px;
+	overflow: hidden; 
+}
+h2.headertext {
+	color: #900000;
+	text-align: center;
+	font-weight: 400;
+}
+
+img {
+	margin: 0px 0px 0px 5px;
+}
+
+p.center {
+	text-align:center;
+}
+p.info {
+	text-align: justify; 
+}
+span.red {
+	color: #8D443D;
+	text-transform: uppercase;
+}
+.margintop {
+	margin-top: 50px;
+	
+}
+a.plink {
+	color: #02048D;
+	text-decoration: none; 
+	
+}
+a.plink:hover {
+	
+	color: #8D443D;
+	text-decoration: underline; 
+}
+.input {
+	margin: 50px auto; 
+	width: 100%; 
+	text-align: center; 
+	color: #6699CC;
+	text-transform: capitalize;
+	
+}
+p.mailspace {
+	margin-top: 1px;
+}
+.buttom {
+	background-color: #99B7C5; 
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+}
+.hours {
+	width: 100%; 
+	text-align: center;
+
+}
+.myinfo {
+	width: 100%; 
+	text-align: center;
+}
+.socialmedia {
+	color: #900000;
+	width: 100%; 
+	text-align: center;
+	font-weight: 400;
+	font-size: 20px;
+}
+p.social {
+	margin: 10px 0px 10px 0px;
+	padding: 0;
+}
+a.sociallink {
+	padding: 5px 0px 10px 0px;
+	text-align: center;	
+}
+@media only screen and (max-width: 857px) {
+	.wrapper {
+		width: 100%;
+	}
+	.whitebox {
+		width: 100%;
+}
+p.social {
+	width: 100%; 
+}
+p.mailspace {
+	width: 100%;
+}
+.header {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.info {
+	width: 80%;
+	overflow: hidden; 
+	}
+p.center {
+	width: 80%;
+	overflow: hidden; 
+}
+}
